@@ -1,0 +1,685 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar
+{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-right: 30px;
+   
+    
+}
+#navbar ul{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#navbar ul li a{
+    padding: 3px 26px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  
+
+}
+#navbar ul li:hover
+{margin-bottom: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 12px;
+    background-color:rgb(161, 160, 160);
+}
+.right
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+}
+.right li a i {
+        display: inline-block; 
+        margin-right: 5px; 
+    } 
+
+#button
+{background-color: white; 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    outline: none; 
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300px;
+ 
+    
+}
+#navbar img
+{
+    margin-left: 30px;
+}
+body{
+    background-color: black;
+}
+.labtxt
+{
+    height: 650px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 70px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+    float: left;
+    
+
+}
+.mainimg
+{
+    height: 700px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 750px;
+    
+    background-image: url('images/Ride-with-Uber.webp');
+    background-size: cover; 
+    background-position: center;
+    border-radius: 1%; 
+
+}
+.mainimg img{
+    height: 400px;
+    width: 20%;
+}
+.text1
+{
+    margin-top: 169px;
+    margin-left: 60px;
+    
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52px;
+
+    color: white;
+}
+.text2
+{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.labtxt input
+{
+    margin-top: 20px;
+    margin-left:60px ;
+    height: 31px;
+    width: 396px;
+    padding: 1px;
+
+    border: 3px solid rgb(254, 251, 251);
+    border-radius: 7px;
+    background-color: white;
+    align-items: center;
+}
+.input1::placeholder {
+    text-align: right; /* Align placeholder text to the right */
+    direction: rtl; /* Set direction to right-to-left */
+    padding-left: 10px;
+    position: relative;
+    left: -278px; /* Add padding to move the placeholder text a little bit from the left */
+}
+.input2::placeholder {
+    text-align: right; /* Align placeholder text to the right */
+    direction: rtl; /* Set direction to right-to-left */
+    padding-left: 10px;
+    position: relative;
+    left: -260px; /* Add padding to move the placeholder text a little bit from the left */
+}
+.ri-send-plane-fill{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: -21px;
+    position: relative;
+    top: -54px;
+    left: 446px;
+}
+.ri-radio-button-fill
+{
+    font-size: 11px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: -18px;
+    position: relative;
+    top: -57px;
+    left: 92px;
+
+}
+.ri-stop-mini-line
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: -13px;
+    position: relative;
+    top: 1px;
+    left: 92px;
+
+}
+#button1
+{background-color: white; 
+    color: white; 
+    
+    
+    
+    cursor: pointer; 
+    outline: none; 
+    margin-top: 25px;
+    margin-left: 60px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.second-container
+{
+    margin-top: 80px;
+    height: 2400px;
+    width: 100%;
+    background-color:white;
+
+}
+ .driveimg
+{
+    height: 500px;
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 100px;
+border-radius: 2px;
+    border-radius: 3px;
+     background-image: url('images/drive.webp');
+    background-size: cover; 
+    background-position: center;
+    border-radius: 1%; 
+   
+   
+    
+    float: left;
+}
+.drivetxt
+{
+    height: 500px;
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 150px;
+    
+    
+    
+
+   float: left;
+   
+    
+}
+.drivehead
+{margin-top: 80px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.drivepara
+{margin-top: 20px;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.getstartbut
+{margin-top: 20px;
+    height: 54px;
+    width: 136px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.drivetxt a{
+    margin-left: 20px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+    
+   /* background-image: linear-gradient(transparent calc(100% - 1px), #000000 1px), linear-gradient(transparent calc(100% - 1px), #CBCBCB 1px);*/
+}
+.uberbusinesstxt
+{
+    height: 500px;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+
+     float: left;
+   
+    
+}
+.uberbusinesshead 
+{margin-top: 90px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.uberbusinesspara
+{
+    margin-top: 20px;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+}
+/*.uberbusiness_txt getstartbut
+{
+    margin-top: 60px;
+}*/
+.uberbusinesstxt a{
+    margin-left: 20px;
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration-color: rgba(193, 192, 192, 0.444);
+}
+.uberbusinessimg
+{
+    height: 600px;
+    width: 35%;
+    margin-top: 80px;
+    margin-left: 80px;
+
+    border-radius: 3px;
+     background-image: url('images/uber\ business.webp');
+    background-size: cover; 
+    background-position: center;
+    border-radius: 1%; 
+   
+   
+    
+    float: left;
+}
+.rentcarimg
+{
+    height: 500px;
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 100px;
+border-radius: 2px;
+    border-radius: 3px;
+     background-image: url('images/rent\ car.webp');
+    background-size: cover; 
+    background-position: center;
+    border-radius: 1%; 
+   
+   
+    
+    float: left;
+}
+.rentcartxt
+{
+    height: 500px;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 170px;
+    
+
+     float: left;
+   
+    
+}
+.rentcarhead
+{margin-top: 150px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.rentcarpara
+{
+    margin-top: 20px;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.app
+{float: left;
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(250, 245, 245);
+
+}
+.app h1
+{margin-top: 90px;
+    margin-left: 120px;
+    padding: 30px;
+    
+        font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        line-height:1px;
+        float: left;
+        
+}
+.uberapp
+{
+    
+    margin-top: 150px;
+    margin-left: 150px;
+   
+    height: 200px;
+    width: 550px;
+    background-color: rgba(246, 247, 250, 0.984);
+    
+}
+.uberapp img{
+    margin-top: 7px;
+    margin-right: 142px;
+    padding: 20px;
+    cursor: pointer;
+}
+.uberapp a {
+    
+    padding: 30px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    
+    line-height: 32px;
+    letter-spacing: 0;
+    margin-left: 170px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -134px;
+    cursor: pointer;
+}
+.uberapp i{
+ font-size: 25px;
+ position: relative;
+ top: -59px;
+ left: 316px;
+    
+}
+
+
+
+.driverapp
+{float: left;
+    margin-top: -201px;
+    margin-left: 718px;
+    height: 200px;
+    width: 600px;
+    background-color: rgba(246, 247, 250, 0.984);
+}
+.driverapp img{
+    margin-top: 7px;
+    margin-right: 142px;
+    padding: 20px;
+    cursor: pointer;
+}
+.driverapp a {
+    
+    padding: 30px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    
+    line-height: 32px;
+    letter-spacing: 0;
+    margin-left: 170px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -134px;
+    cursor: pointer;
+} 
+.driverapp i{ 
+    font-size: 25px;
+    position: relative;
+    top: -59px;
+    left: 316px;
+}
+
+
+
+.footer
+{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    padding: 70px 0;
+    
+}
+.ft1
+{margin-top: -20px;
+    margin-left: 190px;
+    height: 100px;
+width: 80%;
+padding: 10px;
+line-height: 46px;
+
+}
+.uber
+{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 112p;
+    color: white;
+    text-decoration: none;
+    
+    
+
+}
+.helpcenter
+{
+    
+    
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 112p;
+    color: white;
+    text-decoration: none;
+    
+
+}
+.grid-container
+{
+    max-width: 1200px;
+    background-color: aqua;
+    margin: 0;
+}
+ul{
+    list-style: none;
+   
+}
+.container3
+{
+    max-width: 1170px;
+    
+    margin-left: 180px;
+    
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col
+{
+    width: 20%;
+    padding:0 15px;
+}
+.footer-col h4{
+    margin-top: 50px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer-col li
+{
+    margin-bottom: 10px;
+}
+.footer-col a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+  padding: 10px;
+}
+.sociallinks
+{
+    margin-top: 70px;
+    height: 50px;
+    width: 50%;float: left;
+  /* background-color: aquamarine;*/
+}
+.sociallinks a
+{
+    text-decoration: none;
+    text-align: center;
+    margin-right: -109px;
+    padding: -42px;
+    font-size: 18px;
+    margin-left: 95px;
+    color: white;
+    
+}
+.sociallinks i{
+    margin-left: 100px;
+}
+.lang
+{float: left;
+    margin-top: 70px;
+    height: 25px;
+  margin-left: 349px;
+   /* margin-right: 271px;*/
+ /* background-color: aquamarine;*/
+}
+.lang a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 14px;
+    
+    color: white;
+    
+}
+.place
+{float: right;
+    margin-top: 70px;
+    height: 50px;
+    width: 10%;
+    margin-right: 140px;
+ /* background-color: aquamarine;*/
+}
+.place a
+{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 14px;
+    
+    color: white;
+    
+}
+.installimg
+{float: left;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 50%;
+    margin-left: 180px;
+    margin-top: 10px;
+
+    
+}
+.installimg img{
+    
+    height: 120px;
+    width: 140px;
+    padding: 20px;
+}
+.tech1
+{float: left;
+    height: 100px;
+    width: 50%;
+    
+    margin-left: 200px;
+    margin-top:120px;
+}
+.tech1 p{
+    font-family:"Poppins", sans-serif; 
+    font-size: 12px;
+    color: white;
+}
+.pat
+{float: right;
+    height: 100px;
+    width: 20%;
+    margin-right: 76px;
+    margin-top: 120px;
+    
+}
+.pat a{
+    display: inline;
+    flex-direction: row;
+    font-family:"Poppins", sans-serif; 
+    font-size: 12px;
+    color: rgb(248, 243, 243);
+    
+    
+    text-decoration: none;
+    padding: 10px;
+}
